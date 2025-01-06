@@ -102,4 +102,4 @@ energy_communities_2024.tsv:
 This file is a copy of notice_2024-48_appendix_1.tsv with merely a change in name.
 
 # Links
-    https://energycommunities.gov/energy-community-tax-credit-bonus/
+https://energycommunities.gov/energy-community-tax-credit-bonus/
