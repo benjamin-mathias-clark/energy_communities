@@ -53,11 +53,15 @@
 04	023	Arizona nonmetropolitan area
 05	001	South Arkansas nonmetropolitan area
 05	003	South Arkansas nonmetropolitan area
+05	005	North Arkansas nonmetropolitan area
+05	009	North Arkansas nonmetropolitan area
 05	011	South Arkansas nonmetropolitan area
 05	013	South Arkansas nonmetropolitan area
+05	015	North Arkansas nonmetropolitan area
 05	017	South Arkansas nonmetropolitan area
 05	019	West Arkansas nonmetropolitan area
 05	021	East Arkansas nonmetropolitan area
+05	023	North Arkansas nonmetropolitan area
 05	025	Pine Bluff, AR
 05	027	South Arkansas nonmetropolitan area
 05	029	West Arkansas nonmetropolitan area
@@ -66,11 +70,15 @@
 05	041	South Arkansas nonmetropolitan area
 05	043	South Arkansas nonmetropolitan area
 05	047	West Arkansas nonmetropolitan area
+05	049	North Arkansas nonmetropolitan area
 05	051	Hot Springs, AR
 05	055	East Arkansas nonmetropolitan area
 05	057	South Arkansas nonmetropolitan area
 05	059	West Arkansas nonmetropolitan area
 05	061	South Arkansas nonmetropolitan area
+05	063	North Arkansas nonmetropolitan area
+05	065	North Arkansas nonmetropolitan area
+05	067	North Arkansas nonmetropolitan area
 05	069	Pine Bluff, AR
 05	071	West Arkansas nonmetropolitan area
 05	073	South Arkansas nonmetropolitan area
@@ -79,11 +87,13 @@
 05	079	Pine Bluff, AR
 05	081	Texarkana, TX-AR
 05	083	West Arkansas nonmetropolitan area
+05	089	North Arkansas nonmetropolitan area
 05	091	Texarkana, TX-AR
 05	093	East Arkansas nonmetropolitan area
 05	095	East Arkansas nonmetropolitan area
 05	097	West Arkansas nonmetropolitan area
 05	099	South Arkansas nonmetropolitan area
+05	101	North Arkansas nonmetropolitan area
 05	103	South Arkansas nonmetropolitan area
 05	107	East Arkansas nonmetropolitan area
 05	109	West Arkansas nonmetropolitan area
@@ -93,8 +103,14 @@
 05	121	East Arkansas nonmetropolitan area
 05	123	East Arkansas nonmetropolitan area
 05	127	West Arkansas nonmetropolitan area
+05	129	North Arkansas nonmetropolitan area
 05	133	South Arkansas nonmetropolitan area
+05	135	North Arkansas nonmetropolitan area
+05	137	North Arkansas nonmetropolitan area
 05	139	South Arkansas nonmetropolitan area
+05	141	North Arkansas nonmetropolitan area
+05	145	North Arkansas nonmetropolitan area
+05	147	North Arkansas nonmetropolitan area
 05	149	West Arkansas nonmetropolitan area
 06	001	San Francisco-Oakland-Hayward, CA
 06	003	Eastern Sierra-Mother Lode Region of California nonmetropolitan area
@@ -565,12 +581,14 @@
 39	121	Eastern Ohio nonmetropolitan area
 39	123	North Northeastern Ohio nonmetropolitan area (noncontiguous)
 39	131	Southern Ohio nonmetropolitan area
+39	133	Akron, OH
 39	139	Mansfield, OH
 39	141	Southern Ohio nonmetropolitan area
 39	143	North Northeastern Ohio nonmetropolitan area (noncontiguous)
 39	145	Southern Ohio nonmetropolitan area
 39	147	North Northeastern Ohio nonmetropolitan area (noncontiguous)
 39	151	Canton-Massillon, OH
+39	153	Akron, OH
 39	155	Youngstown-Warren-Boardman, OH-PA
 39	157	Eastern Ohio nonmetropolitan area
 39	163	Southern Ohio nonmetropolitan area
@@ -779,6 +797,7 @@
 48	411	Hill Country Region of Texas nonmetropolitan area
 48	413	Hill Country Region of Texas nonmetropolitan area
 48	419	Big Thicket Region of Texas nonmetropolitan area
+48	423	Tyler, TX
 48	425	Dallas-Fort Worth-Arlington, TX
 48	427	Coastal Plains Region of Texas nonmetropolitan area
 48	429	North Texas Region of Texas nonmetropolitan area
@@ -806,6 +825,22 @@
 48	503	North Texas Region of Texas nonmetropolitan area
 48	505	Coastal Plains Region of Texas nonmetropolitan area
 48	507	Border Region of Texas nonmetropolitan area
+51	021	Southwest Virginia nonmetropolitan area
+51	027	Southwest Virginia nonmetropolitan area
+51	035	Southwest Virginia nonmetropolitan area
+51	051	Southwest Virginia nonmetropolitan area
+51	077	Southwest Virginia nonmetropolitan area
+51	089	Southwest Virginia nonmetropolitan area
+51	105	Southwest Virginia nonmetropolitan area
+51	141	Southwest Virginia nonmetropolitan area
+51	167	Southwest Virginia nonmetropolitan area
+51	173	Southwest Virginia nonmetropolitan area
+51	185	Southwest Virginia nonmetropolitan area
+51	195	Southwest Virginia nonmetropolitan area
+51	197	Southwest Virginia nonmetropolitan area
+51	640	Southwest Virginia nonmetropolitan area
+51	690	Southwest Virginia nonmetropolitan area
+51	720	Southwest Virginia nonmetropolitan area
 53	005	Kennewick-Richland, WA
 53	015	Longview, WA
 53	021	Kennewick-Richland, WA

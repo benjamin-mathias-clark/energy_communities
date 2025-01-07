@@ -42,9 +42,9 @@ def main():
                 (state_county_code[0], state_county_code[1], statistical_area_name)
             )
 
-    nationwide_unemployment_rate = process_employment_data.nationwide_sum(
+    nationwide_unemployment_rate = process_employment_data.nationwide_total(
         unemployment, year, start_month, end_month
-    ) / process_employment_data.nationwide_sum(
+    ) / process_employment_data.nationwide_total(
         labor_force, year, start_month, end_month
     )
     labor_force_sa = process_employment_data.aggregate_statistical_areas(

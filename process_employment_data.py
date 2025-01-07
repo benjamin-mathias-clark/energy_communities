@@ -1,4 +1,5 @@
 import csv
+import math
 
 
 def read_employment_data(file_path, measure_code):
@@ -146,7 +147,7 @@ def average_over_months(data, year, start_month, end_month):
         end_month (int): The last month to use data from (inclusive).
 
     Returns:
-        A dictionary with (state_code, county_code) and the summed values as value.
+        A dictionary with (state_code, county_code) and the average as value.
     """
     output = {}
     for state_county_codes in data:
@@ -160,9 +161,12 @@ def average_over_months(data, year, start_month, end_month):
     return output
 
 
-def nationwide_sum(data, year, start_month, end_month):
+def nationwide_total(data, year, start_month, end_month):
     """
-    Aggregate data over a given time range and all locations.
+    Aggregate data by averaging over a given time range and summing over all locations
+    within the 50 states and the District of Columbia.
+    Per section 2.8 of EnergyCommunities_Data_Documentation.pdf, only
+    those geographies should be used in computing the national unemployment rate.
 
     Args:
         data (dict): A dictionary with (state_code, county_code) as key and value being a dictionary
@@ -170,17 +174,69 @@ def nationwide_sum(data, year, start_month, end_month):
         year (int): The year to do the calculation for
         start_month (int): The first month to use data from (inclusive).
         end_month (int): The last month to use data from (inclusive).
-
-    Returns:
-        A dictionary with (state_code, county_code) and the summed values as value.
     """
+    valid_state_codes = {
+        "01",
+        "02",
+        "04",
+        "05",
+        "06",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "53",
+        "54",
+        "55",
+        "56",
+    }
     total = 0
-    for state_county_codes in data:
-        for key in data[state_county_codes]:
+    for state_county_code in data:
+        if state_county_code[0] not in valid_state_codes:
+            continue
+        for key in data[state_county_code]:
             key_year = key[0]
             month = int(key[1][1:])
             if key_year == year and month >= start_month and month <= end_month:
-                total += int(data[state_county_codes][key][0])
+                total += int(data[state_county_code][key][0])
     return total / (end_month - start_month + 1)
 
 
@@ -282,7 +338,12 @@ def get_counties_above_threshold(
     """
     output = []
     for statistical_area_name, state_county_codes in statistical_area_map.items():
-        if unemployment_rates_sa[statistical_area_name] >= nationwide_unemployment_rate:
+        # Per section 2.8 of EnergyCommunities_Data_Documentation.pdf, unemployment rates are
+        # truncated to the hundredths of a percent for purpose of checking against the national
+        # average.
+        if math.floor(
+            10000 * unemployment_rates_sa[statistical_area_name]
+        ) >= math.floor(10000 * nationwide_unemployment_rate):
             for state_county_code in state_county_codes:
                 output.append(
                     (state_county_code[0], state_county_code[1], statistical_area_name)

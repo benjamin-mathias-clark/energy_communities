@@ -117,11 +117,19 @@
 06	111	Oxnard-Thousand Oaks-Ventura, CA
 06	115	Yuba City, CA
 08	001	Denver-Aurora-Lakewood, CO
+08	003	Eastern and Southern Colorado nonmetropolitan area
 08	005	Denver-Aurora-Lakewood, CO
 08	007	Southwest Colorado nonmetropolitan area
+08	009	Eastern and Southern Colorado nonmetropolitan area
+08	011	Eastern and Southern Colorado nonmetropolitan area
 08	014	Denver-Aurora-Lakewood, CO
 08	015	Southwest Colorado nonmetropolitan area
+08	017	Eastern and Southern Colorado nonmetropolitan area
 08	019	Denver-Aurora-Lakewood, CO
+08	021	Eastern and Southern Colorado nonmetropolitan area
+08	023	Eastern and Southern Colorado nonmetropolitan area
+08	025	Eastern and Southern Colorado nonmetropolitan area
+08	027	Eastern and Southern Colorado nonmetropolitan area
 08	029	Southwest Colorado nonmetropolitan area
 08	031	Denver-Aurora-Lakewood, CO
 08	033	Southwest Colorado nonmetropolitan area
@@ -132,17 +140,33 @@
 08	047	Denver-Aurora-Lakewood, CO
 08	051	Southwest Colorado nonmetropolitan area
 08	053	Southwest Colorado nonmetropolitan area
+08	055	Eastern and Southern Colorado nonmetropolitan area
 08	059	Denver-Aurora-Lakewood, CO
+08	061	Eastern and Southern Colorado nonmetropolitan area
+08	063	Eastern and Southern Colorado nonmetropolitan area
 08	067	Southwest Colorado nonmetropolitan area
+08	071	Eastern and Southern Colorado nonmetropolitan area
+08	073	Eastern and Southern Colorado nonmetropolitan area
+08	075	Eastern and Southern Colorado nonmetropolitan area
 08	077	Grand Junction, CO
+08	079	Eastern and Southern Colorado nonmetropolitan area
 08	083	Southwest Colorado nonmetropolitan area
 08	085	Southwest Colorado nonmetropolitan area
+08	087	Eastern and Southern Colorado nonmetropolitan area
+08	089	Eastern and Southern Colorado nonmetropolitan area
 08	091	Southwest Colorado nonmetropolitan area
 08	093	Denver-Aurora-Lakewood, CO
+08	095	Eastern and Southern Colorado nonmetropolitan area
+08	099	Eastern and Southern Colorado nonmetropolitan area
+08	105	Eastern and Southern Colorado nonmetropolitan area
+08	109	Eastern and Southern Colorado nonmetropolitan area
 08	111	Southwest Colorado nonmetropolitan area
 08	113	Southwest Colorado nonmetropolitan area
+08	115	Eastern and Southern Colorado nonmetropolitan area
 08	119	Colorado Springs, CO
+08	121	Eastern and Southern Colorado nonmetropolitan area
 08	123	Greeley, CO
+08	125	Eastern and Southern Colorado nonmetropolitan area
 10	001	Dover, DE
 16	003	Northwestern Idaho nonmetropolitan area
 16	009	Northwestern Idaho nonmetropolitan area
@@ -267,6 +291,7 @@
 21	009	South Central Kentucky nonmetropolitan area
 21	011	Central Kentucky nonmetropolitan area
 21	013	East Kentucky nonmetropolitan area
+21	017	Lexington-Fayette, KY
 21	019	Huntington-Ashland, WV-KY-OH
 21	021	Central Kentucky nonmetropolitan area
 21	025	East Kentucky nonmetropolitan area
@@ -278,6 +303,7 @@
 21	041	Central Kentucky nonmetropolitan area
 21	043	East Kentucky nonmetropolitan area
 21	045	South Central Kentucky nonmetropolitan area
+21	049	Lexington-Fayette, KY
 21	051	East Kentucky nonmetropolitan area
 21	053	South Central Kentucky nonmetropolitan area
 21	055	West Kentucky nonmetropolitan area
@@ -286,6 +312,7 @@
 21	061	Bowling Green, KY
 21	063	East Kentucky nonmetropolitan area
 21	065	Central Kentucky nonmetropolitan area
+21	067	Lexington-Fayette, KY
 21	069	Central Kentucky nonmetropolitan area
 21	071	East Kentucky nonmetropolitan area
 21	073	Central Kentucky nonmetropolitan area
@@ -303,6 +330,7 @@
 21	105	West Kentucky nonmetropolitan area
 21	107	West Kentucky nonmetropolitan area
 21	109	East Kentucky nonmetropolitan area
+21	113	Lexington-Fayette, KY
 21	115	East Kentucky nonmetropolitan area
 21	119	East Kentucky nonmetropolitan area
 21	121	South Central Kentucky nonmetropolitan area
@@ -347,6 +375,7 @@
 21	203	Central Kentucky nonmetropolitan area
 21	205	Central Kentucky nonmetropolitan area
 21	207	South Central Kentucky nonmetropolitan area
+21	209	Lexington-Fayette, KY
 21	213	South Central Kentucky nonmetropolitan area
 21	217	South Central Kentucky nonmetropolitan area
 21	219	West Kentucky nonmetropolitan area
@@ -357,6 +386,7 @@
 21	233	West Kentucky nonmetropolitan area
 21	235	South Central Kentucky nonmetropolitan area
 21	237	East Kentucky nonmetropolitan area
+21	239	Lexington-Fayette, KY
 22	003	Central Louisiana nonmetropolitan area
 22	007	Southwest Louisiana nonmetropolitan area
 22	009	Central Louisiana nonmetropolitan area
