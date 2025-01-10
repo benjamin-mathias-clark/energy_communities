@@ -1,4 +1,11 @@
 # Predicting Energy Community Eligibility
+The code in this repository reproduces the IRS's methodology to determine what counties
+qualify as energy communities where clean energy projects are eligible for increased tax credits.
+
+Using this code, I've generated [predictions](https://docs.google.com/spreadsheets/d/1dwxNsArpU8WewtduW35-_tZ-ETdZwX0xTdKmldsOUE8/view) for which counties will qualify as energy
+communities in 2025 based on the partial year data for 2024 which is currently available.
+
+## Background
 Federal law provides significant investment tax credits[^1] for clean electricity and energy storage
 projects, provided certain criteria are satisfied. When project labor standards are met, or if
 projects qualify for size-based exceptions, the baseline tax credit is 30%. Two additional bonus
