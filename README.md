@@ -77,7 +77,7 @@ on their unemployment rate.
 
 To estimate the probability that additional data and revisions might alter this status before the
 official list is established, I analyzed recent years’ data changes. Specifically, I compared
-equivalent January-November data and annual data as of the annual revision for 2022 and 2023[^3]. Based
+equivalent January-November data and annual data as of the annual revision for 2022 and 2023[^6]. Based
 on the observed distribution of changes in local unemployment rates relative to the national
 average between these data vintages, it is possible to generate probabilistic predictions for 2025
 eligibility.
