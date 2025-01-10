@@ -11,3 +11,9 @@ python compute_energy_communities.py data/la.data.64.County.2022.2024.tsv data/c
 
 The 2024 calculated lists (both calculated_energy_communities_2024.tsv and calculated_energy_communities_2024_first_annual_revision.tsv) exactly match the official list. The 2023 calculated list (calculated_energy_communities_2023_first_annual_revision.tsv) matches with the exception of omitting the U.S. Virgin Islands which is
 working as intended as employment data for the U.S. Virgin Islands is sourced separately from BLS LAUS data.
+
+For the first command (generating the file calculated_energy_communities_2023_11_months.tsv
+using county_labor_data_2022_11_months.tsv), a temporary modification was made to
+process_employment_data.py to exclude data from Puerto Rico due to missing data there in 2022
+due to Hurricane Fiona. That modification is not present in the repo so that command will not
+run with the code as is, but the other lines will.

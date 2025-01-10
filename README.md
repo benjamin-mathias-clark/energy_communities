@@ -1,5 +1,5 @@
 # Predicting Energy Community Eligibility
-Federal law provides significant investment tax credits for clean electricity and energy storage
+Federal law provides significant investment tax credits[^1] for clean electricity and energy storage
 projects, provided certain criteria are satisfied. When project labor standards are met, or if
 projects qualify for size-based exceptions, the baseline tax credit is 30%. Two additional bonus
 credits of 10% each are available for projects meeting one of two conditions: (1) the project is
@@ -7,7 +7,7 @@ situated within a designated "energy community," or (2) it complies with domesti
 provisions. Eligibility for these bonus tax credits can be critical to the financial viability of
 a project, making it essential to understand the nuances of "energy community" designation.
 ## Defining Energy Communities
-A location qualifies as an "energy community" under one of the following conditions:
+A location qualifies as an "energy community" under one of the following conditions[^2]:
 1. Brownfield Sites: The project site has been classified as a brownfield.
 2. Fossil Fuel Employment Counties: A metropolitan or non-metropolitan statistical area (an
 aggregation of one or more counties) that meets a requirement for historical fossil fuel employment
@@ -45,18 +45,18 @@ Understanding the official process and proactively analyzing data is key.
 ## Calculating Local Unemployment Rates
 The IRS revises the list of qualifying metropolitan and non-metropolitan statistical areas (MSAs
 and non-MSAs) annually, typically in May or June, based on the previous year’s employment data from
-the Bureau of Labor Statistics (BLS) Local Area Unemployment Statistics program.. So the simplest
+the Bureau of Labor Statistics (BLS) Local Area Unemployment Statistics program[^3]. So the simplest
 way for developers to get a head start is to go directly to the source for the data.
 
 For instance, in 2024, BLS published the annual county-level employment data for 2023 (the exact
 data the IRS uses) on April 19th. The IRS published the official energy community list on June 7th.
 So one can get a seven week head start just by doing the math yourself. In fact, this works. By
 applying the IRS’s published methodology using their published county-to-MSA mappings and BLS data,
-I was able to exactly replicate the official energy communities lists for 2022 and 2023.
+I was able to exactly replicate the official energy communities lists for 2022 and 2023[^4].
 
 To improve on this and make predictions further into the future, developers can leverage monthly
 county-level employment data rather than waiting for the annual data. The BLS publishes preliminary
-monthly data on a ~1 month lag. A first revision to that data is then published the following month
+monthly data on a ~1 month lag[^5]. A first revision to that data is then published the following month
 at the same time as the preliminary data for the subsequent month. After the year ends, data for
 all months undergoes an additional revision cycle as part of the process of producing annual data.
 
@@ -77,7 +77,7 @@ on their unemployment rate.
 
 To estimate the probability that additional data and revisions might alter this status before the
 official list is established, I analyzed recent years’ data changes. Specifically, I compared
-equivalent January-November data and annual data as of the annual revision for 2022 and 2023. Based
+equivalent January-November data and annual data as of the annual revision for 2022 and 2023[^3]. Based
 on the observed distribution of changes in local unemployment rates relative to the national
 average between these data vintages, it is possible to generate probabilistic predictions for 2025
 eligibility.
@@ -90,3 +90,10 @@ on potential 2025 energy communities. I aim to provide regular data updates as n
 employment data become available. If this resource proves valuable to you, please get in touch.
 
 I welcome feedback and questions. You can reach me at benjamin.mathias.clark@gmail.com.
+
+[^1]: https://www.law.cornell.edu/uscode/text/26/48E
+[^2]: https://www.law.cornell.edu/uscode/text/26/45#b_11_B, https://energycommunities.gov/energy-community-tax-credit-bonus/ 
+[^3]: BLS LAUS does not gather employment data for the US territories of American Samoa, Guam, the Northern Mariana Islands or the U.S. Virgin Islands. The IRS uses non-federal data sources for their unemployment rate. Of these 4, only the U.S. Virgin Islands meet the historical fossil fuel employment requirement. They are excluded from the analysis here.
+[^4]: BLS county-level employment data undergoes a series of revisions. To replicate historical results, it is necessary to use the same version of the data as was available at the time. For 2023 employment data, this is identical to the data available from the BLS website as of today (Jan 10, 2025). For 2022 employment data, the data on the BLS website has undergone subsequent revisions so the historical data was sourced from email communication with BLS staff.
+[^5]: The upcoming release schedule is available at https://www.bls.gov/schedule/news_release/metro.htm.
+[^6]: Analysis for 2023 includes all 50 states, DC and Puerto Rico. Analysis for 2022 includes only the 50 states and DC as some monthly data for Puerto Rico was unavailable due to Hurricane Fiona.
