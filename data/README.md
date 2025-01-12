@@ -36,6 +36,22 @@ was prepared from files provided by correspondence with BLS staff. It currently 
 available on the website as no subsequent revisions have taken place yet. So it is duplicative, but
 useful for confirming data comparability between different sources.
 
+- county_labor_data_2017_first_annual_revision.tsv:
+- county_labor_data_2018_first_annual_revision.tsv:
+- county_labor_data_2019_first_annual_revision.tsv:
+- county_labor_data_2020_first_annual_revision.tsv:
+- county_labor_data_2021_first_annual_revision.tsv:
+
+These files contain annual county-level employment data for the years 2017 to 2021 as of the first
+annual revision. This data was prepared from files provided by correspondence with BLS staff.
+These years are below the Inflation Reduction Act was passed so are not relevant to
+official energy community status. However, analysis of what counties would have been eligible
+had that been law at the time may be useful for understanding the typical magnitude of year-to-year
+changes in unemployment levels at the MSA/non-MSA level.
+
+Data as of the first annual revision is used instead of the most recently released data as that is
+what would have been available at the time had this been active law at the time.
+
 ## IRS data files
 - county_to_statistical_area_mapping.tsv:
 
