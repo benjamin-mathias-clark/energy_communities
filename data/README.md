@@ -52,6 +52,10 @@ changes in unemployment levels at the MSA/non-MSA level.
 Data as of the first annual revision is used instead of the most recently released data as that is
 what would have been available at the time had this been active law at the time.
 
+Caveats with these files: 2020 data for Puerto Rico is not available either via the BLS website or the
+data provided by BLS staff. 2017-2020 data files are missing data for Valdez-Cordova Census Area, AK
+or the two areas of Chugach Census Area, AK and Copper River Census Area, AK it was subdivided into.
+
 ## IRS data files
 - county_to_statistical_area_mapping.tsv:
 
